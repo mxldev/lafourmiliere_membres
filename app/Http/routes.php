@@ -24,8 +24,9 @@ Route::group( ['middleware' => ['auth']], function() {
 
     Route::get('account/addpartner', 'AccountController@addpartner');
     Route::post('account/updatepartner', 'AccountController@updatePartner');
-    Route::get('/account/details', 'AccountController@details');  
-    Route::get('/account/detailsform', 'AccountController@formdetails');   
+    Route::get('account/details', 'AccountController@details');  
+    Route::get('account/detailsform', 'AccountController@formdetails');
+    Route::post('account/updatedetails', 'AccountController@updatedetails');
 
     Route::resource('users', 'UserController');
     Route::get('users/{user}/details', 'UserController@details')->name('getdetails');
