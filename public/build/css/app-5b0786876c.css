@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+html,
+body {
+  height: 100%; }
+
+body#app-layout {
+  background-color: powderblue; }
+
+#app-layout .app-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: calc(100% - 50px); }
+
+#app-layout .row {
+  width: 100%; }
+
+#app-layout .panel.panel-default {
+  padding: 20px; }
+
+nav.navbar-default {
+  background-color: #d8870d;
+  margin: 0; }
+
+a.navbar-brand {
+  color: #fff !important; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important; }
+
+.panel-default > .panel-heading {
+  border-color: transparent !important;
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+  font-size: 2rem; }
+
+.panel.panel-default {
+  border: 0;
+  box-shadow: none; }
+
+/*# sourceMappingURL=app.css.map */
