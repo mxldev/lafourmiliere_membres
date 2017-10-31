@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Mail;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
@@ -26,6 +27,12 @@ class AccountController extends Controller
         $user->partner = $request->partner;
 
         $user->save();
+
+        Mail::send('emails.newPartner', ['user' => $user ] , function ($message) use ($user) {
+            $message->to('maxime.lutz@gmail.com')->subject('Ajout d\'un partenaire');
+            $message->from('nepasrepondre@lafourmiliere.org', 'La Fourmiliere');
+        });
+
         return redirect()->route('inscription');        
     }
 

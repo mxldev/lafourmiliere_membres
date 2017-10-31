@@ -58,7 +58,7 @@ class AuthController extends Controller
 
         Mail::send('emails.confirmationCompte', ['user' => $user ] , function ($message) use ($user) {
             $message->to($user->email, $user->name)->subject('Confirmation d\'inscription');
-            $message->from('hello@app.com', 'La Fourmiliere');
+            $message->from('nepasrepondre@lafourmiliere.org', 'La Fourmiliere');
         });
 
         Auth::guard($this->getGuard())->login($user);

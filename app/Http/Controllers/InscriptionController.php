@@ -73,7 +73,7 @@ class InscriptionController extends Controller
 
         Mail::send('emails.confirmationFormulaireFinalise', ['user' => $user ] , function ($message) use ($user) {
             $message->to($user->email, $user->name)->subject('Confirmation d\'inscription');
-            $message->from('hello@app.com', 'La Fourmiliere');
+            $message->from('nepasrepondre@lafourmiliere.org', 'La Fourmiliere');
         });
         
         return redirect()->route('inscriptionStep', ['step' => 4]);   

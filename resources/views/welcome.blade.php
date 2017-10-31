@@ -5,6 +5,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="panel panel-default">
+                <img class="logo" src="{{asset('images/logo.png')}}">
+
                 <div class="panel-heading">Bienvenue,</div>
 
                 <div class="panel-body">

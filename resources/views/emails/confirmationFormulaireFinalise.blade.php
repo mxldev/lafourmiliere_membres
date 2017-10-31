@@ -1,26 +1,28 @@
 <h1>Bienvenue, </h1>
 <h3>Vous faites désormais partie de La Fourmilière.</h3>
 
-<p>Dorénavant, vous allez pouvoir participer aux commandes groupées (dont le catalogue est en pièce jointe), ainsi qu’à la vie de l’association.</p>
+<p>Dorénavant, vous allez pouvoir participer aux commandes groupées, ainsi qu’à la vie de l’association.</p>
+
+<p><a href="{{ url('/images/administratif/catalogue.pdf') }}" target="_blank">Consulter le catalogue en cliquant ici.</a> </p>
 
 <p>Si vous voulez nous faire profiter de votre énergie, n’hésitez pas à nous contacter via contact@lafourmiliere.org pour rejoindre nos groupes de travail.</p>
 
 <p>Fourmilièrement vôtre,</p>
 
-<p>Voilà nos coordonnées :<br />
-Pour vos remarques et questions générales : contact@lafourmiliere.org<br />
-Pour les questions sur les commandes groupées : commande@lafourmiliere.org</p>
-
-<p>Pièce jointe : <br />
-RIB + adresse postale Helene<br />
-Catalogue</p>
-
 @if(!$user->hasvalidemail())
-<p>----------------------------</p>
 <p>Vous n'avez pas encore validé votre mail.<br />
 Pour ce faire, merci de cliquer sur le lien ci-dessous :</p>
 @include('emails._emailvalidationlink')
 @endif
+
+<p>Vous pouvez effectuer un virement aux coordonnées suivantes : <br />
+<a href="{{ url('/images/administratif/rib_fourmiliere.png') }}">Télécharger le RIB</a></p>
+<p>Vous pouvez également envoyer un chèque à l'ordre de "La Fourmilière" adressé à :<br />
+Hélène HENRY,<br />
+18 rue Champs Verts,<br />
+67880 KRAUTERGERSHEIM</p>
+
+
 
 
 
