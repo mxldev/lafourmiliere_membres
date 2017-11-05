@@ -242,148 +242,148 @@
 			font-weight:normal;
 			text-decoration:underline;
 		}
-	@media only screen and (min-width:768px){
+	@media  only screen and (min-width:768px){
 		.templateContainer{
 			width:600px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		body,table,td,p,a,li,blockquote{
 			-webkit-text-size-adjust:none !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		body{
 			width:100% !important;
 			min-width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#bodyCell{
 			padding-top:10px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImage{
 			width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{
 			max-width:100% !important;
 			width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnBoxedTextContentContainer{
 			min-width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageGroupContent{
 			padding:9px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
 			padding-top:9px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
 			padding-top:18px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageCardBottomImageContent{
 			padding-bottom:9px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageGroupBlockInner{
 			padding-top:0 !important;
 			padding-bottom:0 !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageGroupBlockOuter{
 			padding-top:9px !important;
 			padding-bottom:9px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnTextContent,.mcnBoxedTextContentColumn{
 			padding-right:18px !important;
 			padding-left:18px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
 			padding-right:18px !important;
 			padding-bottom:0 !important;
 			padding-left:18px !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcpreview-image-uploader{
 			display:none !important;
 			width:100% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		h1{
 			font-size:22px !important;
 			line-height:125% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		h2{
 			font-size:20px !important;
 			line-height:125% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		h3{
 			font-size:18px !important;
 			line-height:125% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		h4{
 			font-size:16px !important;
 			line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
 			font-size:14px !important;
 			line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#templatePreheader{
 			display:block !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
 			font-size:14px !important;
 			line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
 			font-size:16px !important;
 			line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
 			font-size:16px !important;
 			line-height:150% !important;
 		}
 
-}	@media only screen and (max-width: 480px){
+}	@media  only screen and (max-width: 480px){
 		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
 			font-size:14px !important;
 			line-height:150% !important;
@@ -471,7 +471,7 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
                         
-                          @yield('content')
+                          <?php echo $__env->yieldContent('content'); ?>
 						  
 						  
                         </td>
