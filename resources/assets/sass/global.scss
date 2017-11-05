@@ -9,7 +9,7 @@ body#app-layout {
 #app-layout .app-content {
     display: flex;
     align-items: center;
-    height: calc(100% - 50px);
+    min-height: calc(100% - 50px);
 }
 #app-layout .row {
     width: 100%;
