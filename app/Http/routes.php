@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index')->name('welcome');
+Route::get('/home', 'HomeController@index')->name('welcome');
 
 Route::auth();
 Route::get('confirm/{id}/{token}', 'InscriptionController@confirm');

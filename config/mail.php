@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => "nepasrepondre@lafourmiliere.org", 'name' => "La Fourmiliere"],
 
     /*
     |--------------------------------------------------------------------------

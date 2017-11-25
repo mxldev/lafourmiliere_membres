@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-md-6">
             <div class="panel panel-default">
                 <img class="logo" src="{{asset('images/logo.png')}}">
 
@@ -17,7 +17,7 @@ Si vous le souhaitez, vous pouvez augmenter ce montant pour soutenir nos actions
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">Vous avez déja un compte ?</div>
 

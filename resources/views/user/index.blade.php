@@ -24,7 +24,7 @@
                 <tr>
                     <td>
                     <a href="{{ route('getdetails', ['users' => $item->id])  }}">
-                    {{ $item->name }}</a>
+                    {{ $item->firstname }} {{ $item->name }}</a>
                     </td>
                     <td>{{ $item->email }}</td>
 

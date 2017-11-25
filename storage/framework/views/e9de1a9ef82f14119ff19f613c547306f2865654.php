@@ -22,7 +22,7 @@
                 <tr>
                     <td>
                     <a href="<?php echo e(route('getdetails', ['users' => $item->id])); ?>">
-                    <?php echo e($item->name); ?></a>
+                    <?php echo e($item->firstname); ?> <?php echo e($item->name); ?></a>
                     </td>
                     <td><?php echo e($item->email); ?></td>
 
